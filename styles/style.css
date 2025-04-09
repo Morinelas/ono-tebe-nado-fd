@@ -1,1 +1,180 @@
 /* место для вашего кода */
+
+
+
+body {
+  background-color: aquamarine;
+}
+
+
+.header {
+  padding: 92px 50px 96px;
+  display:grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+}
+
+.header__menu {
+  
+  
+}
+
+.header__links-list {
+  display: flex;
+  gap: 32px;
+  list-style: circle;
+  
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__logo {
+  width: 148px;
+  height: 105px;
+}
+
+.adress {
+  justify-self: end;
+  max-width: 240px;;
+}
+
+.header__adress {
+  list-style: none;
+}
+
+
+
+.cover {
+  padding: 165px 50px 50px 50px;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+.cover__title {
+  
+  font-family: Raleway;
+  font-size: 100px;
+  line-height: 114.99999999999999%;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+
+.aligned-text {
+  display: block;
+  
+  
+  
+}
+
+.aligned-text_center {
+  display: block;
+  margin: 20px 330.5px;
+  
+}
+
+.aligned-text_right {
+  display: block;
+  margin: 20px 0px 0px 613px;
+ 
+}
+
+.cover__description {
+  margin-top: 106px;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  
+  
+}
+
+.cover__description-text {
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  word-spacing: 0.9em;
+}
+
+.bet-button {
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0);
+  border: #FFFFFF;
+}
+
+.lots {
+
+}
+
+.lots__heading {
+
+}
+
+.lots__card-list {
+
+}
+
+.lots__card-list-item {
+
+}
+
+.card-type-film {
+
+}
+
+.card__title {
+
+}
+
+.card__text {
+
+}
+
+.card-type-book {
+
+}
+
+.card-type-picture {
+
+}
+
+.lots__look-more-link {
+
+}
+
+.about {
+
+}
+
+.about__logo {
+
+}
+
+.about__title {
+
+}
+
+.about__text {
+
+}
+
+.footer__menu {
+
+}
+
+.footer__social-list {
+
+}
