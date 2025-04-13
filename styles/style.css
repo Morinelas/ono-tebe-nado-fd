@@ -28,7 +28,7 @@
 
 .adress {
   justify-self: end;
-  max-width: 240px;;
+  max-width: 240px;
 }
 
 .header__adress,
@@ -38,6 +38,7 @@
   padding: 0;
   font-size: 18px;
   line-height: 133%;
+  font-style: normal;
 }
 
 .header__adress {
@@ -106,7 +107,6 @@
 .cover__description-text {
   font-size: 22px;
   line-height: 127%;
-  word-spacing: 1.1em;
   text-transform: uppercase;
   color: #FFFFFF;
   word-spacing: 0.85em;
@@ -247,7 +247,7 @@
   justify-content: space-between;
 }
 
-.footer__menu{
+.footer__menu {
   justify-self: center;
   text-align: center;
   font-size: 18px;
@@ -263,7 +263,7 @@
   text-decoration: underline;
 }
 
-.footer__menu-link_active{
+.footer__menu-link_active {
   text-decoration: none;
 }
 
